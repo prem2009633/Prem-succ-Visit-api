@@ -52,7 +52,7 @@ project/
 
 2. **Make a GET request:**
    ```
-   http://localhost:5000/<server>/<uid>
+   http://localhost:5000/visit?uid={uid}&region={region}
    ```
 
    Replace:
