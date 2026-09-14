@@ -125,7 +125,7 @@ Made by [Mahendra : 'https://discord.gg/2z2WxQKRtC' ) for Free Fire automation.
 
 ## 📞 Support
 
-For help or custom development, message on Telegram: [@jobayar_ahmed](https://discord.gg/2z2WxQKRtC)
+For help or custom development, message on Telegram: (https://discord.gg/2z2WxQKRtC)
 
 ---
 
