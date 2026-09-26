@@ -1,3 +1,6 @@
+# dont change the credits of originx devs powered by MAHENDRA
+
+
 from flask import Flask, request, jsonify
 import json
 import binascii
