@@ -62,7 +62,7 @@ async def make_request_async(encrypt, region, token, session):
         elif region in {"BR", "US", "SAC", "NA"}:
             url = "https://client.us.freefiremobile.com/GetPlayerPersonalShow"
         else:
-            url = "https://clientbp.ggpolarbear.com/GetPlayerPersonalShow"
+            url = "https://clientbp.ppmainecoonghj.com/GetPlayerPersonalShow"
 
         edata = bytes.fromhex(encrypt)
         headers = {
@@ -74,7 +74,7 @@ async def make_request_async(encrypt, region, token, session):
             'Expect': "100-continue",
             'X-Unity-Version': "2018.4.11f1",
             'X-GA': "v1 1",
-            'ReleaseVersion': "OB54"
+            'ReleaseVersion': "OB55"
         }
 
         async with session.post(url, data=edata, headers=headers, ssl=False, timeout=5) as response:
