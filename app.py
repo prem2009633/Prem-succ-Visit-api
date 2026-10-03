@@ -143,7 +143,8 @@ async def visit():
             "SuccessfulVisits": success_count,
             "FailedVisits": failed_count,
             "PlayerNickname": player_name,
-            "UID": player_uid
+            "UID": player_uid,
+            "Credit" : prem
         }
         return jsonify(summary)
     except Exception as e:
